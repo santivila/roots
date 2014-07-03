@@ -1,29 +1,43 @@
 {
   "name": "roots",
-  "version": "6.5.2",
-  "author": "Ben Word <ben@benword.com>",
+  "version": "6.7.0",
+  "contributors": [
+    "Ben Word <ben@benword.com>",
+    "Boston Dell-Vandenberg <boston@pomelodesign.com>",
+    "Santi Vila <santi@lavitoverda.net>"
+  ],
   "homepage": "http://roots.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/roots/roots.git"
+    "url": "git://github.com/santivila/roots.git"
   },
   "bugs": {
-    "url" : "https://github.com/roots/roots/issues"
+    "url": "https://github.com/santivila/roots/issues"
   },
-  "licenses": [{
-    "type": "MIT",
-    "url": "http://opensource.org/licenses/MIT"
-  }],
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/MIT"
+    }
+  ],
+  "private": true,
   "engines": {
     "node": ">= 0.10.0"
   },
   "devDependencies": {
-    "grunt": "~0.4.2",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-jshint": "~0.6.4",
-    "grunt-contrib-uglify": "~0.2.4",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt-contrib-less": "~0.8.1",
-    "grunt-wp-version": "~0.1.0"
+    "gulp": "^3.6.2",
+    "gulp-autoprefixer": "^0.0.7",
+    "gulp-cache": "^0.1.11",
+    "gulp-concat": "^2.2.0",
+    "gulp-if": "^1.2.1",
+    "gulp-imagemin": "^0.6.0",
+    "gulp-jshint": "^1.6.1",
+    "gulp-minify-css": "^0.3.4",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^0.5.0",
+    "gulp-uglify": "^0.3.0",
+    "gulp-util": "^2.2.16",
+    "jshint-stylish": "^0.2.0",
+    "gulp-livereload": "~2.1.0"
   }
 }
